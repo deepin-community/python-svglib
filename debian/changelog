@@ -1,5 +1,51 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-svglib (1.4.1+dfsg-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.4.1+dfsg
+  * Update Standards-Version to 4.6.1 (no changes needed)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Agathe Porte <debian@microjoe.org>  Fri, 12 Aug 2022 18:44:42 +0200
+
+python-svglib (1.3.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream version 1.3.0+dfsg
+
+ -- Agathe Porte <debian@microjoe.org>  Tue, 24 May 2022 21:32:28 +0200
+
+python-svglib (1.2.0+dfsg-1) unstable; urgency=medium
+
+  [ Agathe Porte ]
+  * New upstream version 1.2.0+dfsg
+  * d/copyright: fix uscan Files-Excluded warning
+  * Introduce d/gbp.conf
+
+  [ Jeroen Ploemen ]
+  * Copyright: update year and name for upstream.
+
+ -- Agathe Porte <debian@microjoe.org>  Sat, 05 Feb 2022 09:49:53 +0000
+
+python-svglib (1.1.0+dfsg-3) unstable; urgency=medium
+
+  [ Agathe Porte ]
+  * autopkgtests: use py3versions
+  * update debian metadata: new year, changed uploader
+  * d/watch: remove filenamemangle, prefer symlink
+  * d/control: update Standards version to 4.6.0 (no changes needed)
+
+  [ Mattia Rizzolo ]
+  * Build-depend on dh-sequence-python3 for a more declarative packaging.
+
+ -- Agathe Porte <debian@microjoe.org>  Sat, 15 Jan 2022 09:43:53 +0100
+
+python-svglib (1.1.0+dfsg-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/salsa-ci.yml: Use Salsa CI.
+  * Source-only upload to allow testing migration.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 29 Sep 2021 21:19:05 -0400
+
+python-svglib (1.1.0+dfsg-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #984951)
+
+ -- Agathe Porte <debian@microjoe.org>  Fri, 20 Aug 2021 10:36:38 -0700

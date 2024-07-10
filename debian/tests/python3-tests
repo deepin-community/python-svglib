@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -euo pipefail
+
+cp -a tests $AUTOPKGTEST_TMP
+cd $AUTOPKGTEST_TMP
+
+for p in $(py3versions -s); do
+    "${p}" -m pytest
+done

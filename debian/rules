@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+
+export PYBUILD_NAME=python-svglib
+
 %:
-	dh $@
+	dh $@ --buildsystem=pybuild
